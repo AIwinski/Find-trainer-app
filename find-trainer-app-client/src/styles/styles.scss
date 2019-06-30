@@ -1,0 +1,24 @@
+@import "utils/variables";
+
+@import "base/base";
+@import "base/typography";
+
+@import "components/navbar";
+@import "components/debounced-form";
+@import "components/rating";
+@import "components/card";
+@import "components/input-range/input-range.scss";
+@import "components/hero";
+@import "components/list";
+@import "components/chat";
+@import "components/scrollbar";
+@import "components/form";
+@import "components/login";
+@import "components/register";
+@import "components/profile";
+@import "components/image-gallery";
+@import "components/spin-loader.scss";
+@import "components/not-found.scss";
+@import "components/edit-profile.scss";
+@import "components/react-select.scss";
+

@@ -1,0 +1,38 @@
+.react-select {
+    &__control {
+        margin-top: 4rem !important;
+    }
+
+    &__indicator {
+        padding: 0.5rem !important;
+        cursor: pointer;
+    }
+
+    &__value-container {
+        padding: 0.2rem !important;
+    }
+
+    &__multi-value {
+        &__label {
+            font-size: 1.2rem !important;
+            padding: 0rem 0.5rem !important;
+        }
+
+        &__remove {
+            padding: 0rem 0.5rem !important;
+            cursor: pointer;
+        }
+    }
+
+    &__menu {
+        &-list {
+            padding: 0 !important;
+        }
+    }
+
+    &__option {
+        padding: 0rem 0.5rem !important;
+        cursor: pointer !important;
+        margin: 0 !important;
+    }
+}

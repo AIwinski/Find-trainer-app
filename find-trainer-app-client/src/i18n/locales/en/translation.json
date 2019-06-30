@@ -1,0 +1,13 @@
+{
+    "test": "test ENENENE",
+    "auth": {
+        "errors": {
+            "wrong_email": "Given email is wrong.",
+            "required_field": "This field is required."
+        },
+        "login-form": {
+            "password": "Password",
+            "email": "Email"
+        }
+    }
+}

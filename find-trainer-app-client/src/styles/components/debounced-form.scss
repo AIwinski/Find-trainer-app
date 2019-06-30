@@ -1,0 +1,53 @@
+$padding: 1rem;
+$element-background: #fff;
+$element-background-hover: #ddd;
+$element-background-selected: #eee;
+$border-radius: 20px;
+
+.debounced-form {
+    margin: 1rem;
+    position: relative;
+
+    &__input {
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: $border-radius;
+        border: none;
+        height: 40px;
+
+        &--has-results {
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+    }
+
+    &__results {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom-left-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+    }
+
+    &__element {
+        box-sizing: border-box;
+        padding: 1rem;
+        background: $element-background;
+
+        &:last-of-type {
+            border-bottom-left-radius: $border-radius;
+            border-bottom-right-radius: $border-radius;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background: $element-background-hover;
+        }
+
+        &--selected {
+            background: $element-background-selected;
+        }
+    }
+}

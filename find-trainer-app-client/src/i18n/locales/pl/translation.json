@@ -1,0 +1,13 @@
+{
+    "test": "testPLPLPLPL",
+    "auth": {
+        "errors": {
+            "wrong_email": "Podany email jest nieprawidłowy.",
+            "required_field": "To pole jest wymagane."
+        },
+        "login-form": {
+            "password": "Hasło",
+            "email": "Email"
+        }
+    }
+}

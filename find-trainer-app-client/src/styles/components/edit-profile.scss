@@ -1,0 +1,17 @@
+.edit-profile {
+    margin-top: 100px;
+    &__general {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.img-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}

@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $white;
+    overflow: overlay;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-fluid {
+    padding-left: 16rem;
+    padding-right: 16rem;
+
+    @media (max-width: 1440px) {
+        padding-right: 12rem;
+        padding-left: 12rem;
+    }
+
+
+    @media (max-width: 1199px) {
+        padding-right: 8rem;
+        padding-left: 8rem;
+    }
+
+    @media (max-width: 991px) {
+        padding-right: 4.5rem;
+        padding-left: 4.5rem;
+    }
+
+    @media (max-width: 575px) {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+.page-wrapper {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,26 @@
+$rating: rgb(121, 121, 121);
+$rating_active: #d83200;
+
+.rating {
+    color: $rating;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    &__value {
+        color: $rating_active;
+        margin-right: 0.5rem;
+    }
+
+    &__number {
+        margin-left: 0.5rem;
+    }
+
+    &__star {
+        font-size: 2.4rem;
+        &--active {
+            color: $rating_active;
+        }
+    }
+}

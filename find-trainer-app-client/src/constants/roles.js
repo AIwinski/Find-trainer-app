@@ -1,0 +1,6 @@
+export const ROLES = {
+    DEFAULT: "DEFAULT",
+    ADMIN: "ADMIN",
+    NORMAL: "NORMAL",
+    PROFESSIONAL: "PROFESSIONAL"
+};

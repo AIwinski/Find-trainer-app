@@ -1,0 +1,29 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    min-height: 100%;
+    box-sizing: border-box;
+
+    &__role {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__option {
+        border: 1px solid #eee;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+
+        &--active {
+            font-weight: bold;
+            background: rgb(0, 192, 32);
+            color: white;
+        }
+    }
+}
