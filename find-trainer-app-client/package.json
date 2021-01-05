@@ -5,7 +5,7 @@
   "dependencies": {
     "animated": "^0.2.2",
     "awesome-debounce-promise": "^2.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-jest": "^23.6.0",
     "formik": "^1.5.1",
     "i18next": "^15.0.7",
